@@ -5,7 +5,7 @@
 }:
 
 pkgs.mkShell rec {
-  name = "asr-server";
+  name = "python uv";
   buildInputs = with pkgs; [
     uv
   ];
